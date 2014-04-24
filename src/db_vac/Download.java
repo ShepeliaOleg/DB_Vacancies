@@ -14,7 +14,8 @@ public class Download {
         URL url = new URL("http://jobs.dou.ua/vacancies/feeds/?search=Java");
         BufferedReader reader = new BufferedReader(
                 new InputStreamReader(url.openConnection().getInputStream(), "UTF-8"));
-        String xmlString = null;
+        String xmlString
+                = null;
         StringBuilder builder = new StringBuilder();
         try {
             while (true){
