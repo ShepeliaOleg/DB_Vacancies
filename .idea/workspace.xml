@@ -75,22 +75,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionToDB.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ConnectionToDB.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+            <state line="10" column="39" selection-start="280" selection-end="280" vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parsing.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Parsing.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="23" selection-start="269" selection-end="269" vertical-scroll-proportion="0.1943734" vertical-offset="162" max-vertical-offset="833">
+            <state line="38" column="48" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="850">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#232#241#0" expanded="true" />
+                <element signature="e#261#270#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,8 +127,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/db_vac/Download.java" />
         <option value="$PROJECT_DIR$/src/db_vac/Vacancy.java" />
-        <option value="$PROJECT_DIR$/src/db_vac/ConnectionToDB.java" />
         <option value="$PROJECT_DIR$/src/db_vac/Parsing.java" />
+        <option value="$PROJECT_DIR$/src/db_vac/ConnectionToDB.java" />
       </list>
     </option>
   </component>
@@ -476,12 +476,12 @@
       <changelist id="4c111925-efe6-4be9-9d36-89d0a54a81c1" name="Default" comment="" />
       <created>1398368759895</created>
       <updated>1398368759895</updated>
-      <workItem from="1398368765540" duration="2049000" />
+      <workItem from="1398368765540" duration="2646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2049000" />
+    <option name="totallyTimeSpent" value="2646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="722" extended-state="6" />
@@ -500,7 +500,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -559,20 +559,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
+        <state line="38" column="48" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="850">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#261#270#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
+    <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="269" selection-end="269" vertical-scroll-proportion="0.1943734" vertical-offset="162" max-vertical-offset="833">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#232#241#0" expanded="true" />
-          </folding>
+        <state line="10" column="39" selection-start="280" selection-end="280" vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="391">
+          <folding />
         </state>
       </provider>
     </entry>

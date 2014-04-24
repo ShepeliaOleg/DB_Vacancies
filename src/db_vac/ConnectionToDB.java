@@ -8,6 +8,6 @@ public class ConnectionToDB {
     public static void main (String [] a) throws Exception {
         Parsing parsing = new Parsing();
         parsing.Parsing(new Download().download());
-        parsing.print();
+        parsing.print(parsing.vacancies);
     }
 }

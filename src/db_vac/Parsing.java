@@ -2,6 +2,7 @@ package db_vac;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
@@ -34,8 +35,8 @@ public class Parsing {
         }
     }
 
-    public void print (){
-        Iterator <Vacancy> iterator = vacancies.iterator();
+    public void print (Collection collection){
+        Iterator <Vacancy> iterator = collection.iterator();
         while (iterator.hasNext()){
             System.out.println(iterator.next());
         }
