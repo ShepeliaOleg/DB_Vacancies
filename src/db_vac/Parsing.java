@@ -31,7 +31,7 @@ public class Parsing {
                 vacancy.setTitle(title);
             }
             vacancies.add(vacancy);
-            //db.writeBD(link,title);
+            //db.recordInTheTable(link,title);
         }
     }
 
