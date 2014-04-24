@@ -67,8 +67,10 @@
       <file leaf-file-name="Download.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="21" selection-start="77" selection-end="77" vertical-scroll-proportion="0.15653776" vertical-offset="0" max-vertical-offset="543">
-              <folding />
+            <state line="16" column="24" selection-start="461" selection-end="461" vertical-scroll-proportion="0.3756906" vertical-offset="68" max-vertical-offset="646">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,6 +81,13 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/db_vac/Download.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -393,16 +402,16 @@
       <changelist id="4c111925-efe6-4be9-9d36-89d0a54a81c1" name="Default" comment="" />
       <created>1398368759895</created>
       <updated>1398368759895</updated>
-      <workItem from="1398368765540" duration="216000" />
+      <workItem from="1398368765540" duration="831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216000" />
+    <option name="totallyTimeSpent" value="831000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="722" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="722" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -451,8 +460,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="77" selection-end="77" vertical-scroll-proportion="0.15653776" vertical-offset="0" max-vertical-offset="543">
-          <folding />
+        <state line="16" column="24" selection-start="461" selection-end="461" vertical-scroll-proportion="0.3756906" vertical-offset="68" max-vertical-offset="646">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
