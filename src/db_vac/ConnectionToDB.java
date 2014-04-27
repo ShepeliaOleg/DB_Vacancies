@@ -10,6 +10,7 @@ public class ConnectionToDB {
         DB db = new DB();
         Download download = new Download();
         Parsing parsing = new Parsing();
-        parsing.Parsing(download.download());
+       parsing.Parsing(download.download());
+        db.diff();
     }
 }

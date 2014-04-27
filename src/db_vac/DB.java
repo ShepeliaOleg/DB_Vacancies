@@ -21,15 +21,33 @@ public class DB {
     public void writeDB (String link, String title) throws SQLException {
 
         Connection connection = DriverManager.getConnection("jdbc:derby:E://ProjectJava//DBVacancies//DB");
-        PreparedStatement statement = connection.prepareStatement("insert into vacancy (title, link, status, createTime) values (?,?,?,?)");
-        boolean status = true;
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        PreparedStatement statement = connection.prepareStatement("insert into newvacancy (title, link) values (?,?)");
         statement.setString(1, title);
         statement.setString(2, link);
-        statement.setBoolean(3, status);
-        statement.setString(4, format.format(new Date(System.currentTimeMillis())).toString());
         statement.execute();
         statement.close();
+    }
+
+    public void diff () throws SQLException {
+        Connection connection = DriverManager.getConnection("jdbc:derby:E://ProjectJava//DBVacancies//DB");
+        PreparedStatement statement = connection.prepareStatement("select title, link from newvacancy except select title, link from vacancy");
+        ResultSet resultSet = statement.executeQuery();
+        while (resultSet.next()){
+            String title = resultSet.getString("title");
+            String link = resultSet.getString("link");
+            boolean status = true;
+            SimpleDateFormat createTime = new SimpleDateFormat("yyyy-MM-dd");
+
+            statement = connection.prepareStatement("insert into vacancy (title, link, status, createTime) values (?, ?, ?, ?)");
+            statement.setString(1, title);
+            statement.setString(2, link);
+            statement.setBoolean(3, status);
+            statement.setString(4, createTime.format(new Date(System.currentTimeMillis())).toString());
+            statement.execute();
+            System.out.println(title + "  -  " + link);
+        }
+        statement.close();
+
     }
 
 }
