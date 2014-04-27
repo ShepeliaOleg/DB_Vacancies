@@ -6,8 +6,10 @@ package db_vac;
 public class ConnectionToDB {
 
     public static void main (String [] a) throws Exception {
+
+        DB db = new DB();
+        Download download = new Download();
         Parsing parsing = new Parsing();
-        parsing.Parsing(new Download().download());
-        parsing.print(parsing.vacancies);
+        parsing.Parsing(download.download());
     }
 }

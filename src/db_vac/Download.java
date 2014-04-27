@@ -11,6 +11,7 @@ public class Download {
 
     public String  download () throws Exception {
 
+
         URL url = new URL("http://jobs.dou.ua/vacancies/feeds/?search=Java");
         BufferedReader reader = new BufferedReader(
                 new InputStreamReader(url.openConnection().getInputStream(), "UTF-8"));
@@ -27,6 +28,7 @@ public class Download {
             }} finally {
             reader.close();
         }
+
         return builder.toString();
     }
 

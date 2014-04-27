@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DB_Vacancies.iml" filepath="$PROJECT_DIR$/DB_Vacancies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DBVacancies.iml" filepath="$PROJECT_DIR$/DBVacancies.iml" />
     </modules>
   </component>
 </project>

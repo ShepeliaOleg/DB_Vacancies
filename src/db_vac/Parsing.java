@@ -15,6 +15,7 @@ public class Parsing {
 
     public void Parsing(String string) throws SQLException {
 
+        DB db = new DB();
         String [] item = string.split("<item>");
         int i = 1;
         for (String line : item){
@@ -31,7 +32,7 @@ public class Parsing {
                 vacancy.setTitle(title);
             }
             vacancies.add(vacancy);
-            //db.recordInTheTable(link,title);
+            db.writeDB(link,title);
         }
     }
 

@@ -11,6 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DB_Vacancies$ConnectionToDB.coverage" NAME="ConnectionToDB Coverage Results" MODIFIED="1398461776252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>db_vac.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -67,10 +72,17 @@
       <file leaf-file-name="Download.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="663">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="13" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="663">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parsing.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="33" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="799">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,7 +90,7 @@
       <file leaf-file-name="ConnectionToDB.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+            <state line="12" column="45" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -87,38 +99,10 @@
       <file leaf-file-name="DB.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="48" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.87430686" vertical-offset="139" max-vertical-offset="799">
+            <state line="29" column="93" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.6927711" vertical-offset="246" max-vertical-offset="680">
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1398373509835" expanded="true" signature="571:618" placeholder="insert into ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parsing.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="48" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="850">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#261#270#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vacancy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db_vac/Vacancy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <folding>
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
+                <marker date="1398625174595" expanded="true" signature="390:436" placeholder="insert into ..." />
+                <marker date="1398625174595" expanded="true" signature="831:901" placeholder="insert into ..." />
               </folding>
             </state>
           </provider>
@@ -137,11 +121,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/db_vac/Download.java" />
         <option value="$PROJECT_DIR$/src/db_vac/Vacancy.java" />
+        <option value="db-console:/95523ea0/153d3043-72ce-4358-bdcf-0e433321c191/" />
+        <option value="db-console:/82e0db93/2fef2967-a736-4ace-b3bd-aea0c58e54e3/" />
+        <option value="db-console:/82e0db93/975630c8-7f2b-4c83-a6db-4accd5e9b693/" />
+        <option value="db-console:/82e0db93/9d74a5fc-d2e3-46dc-9475-eb11d3c0ef15/" />
+        <option value="$PROJECT_DIR$/src/db_vac/Download.java" />
         <option value="$PROJECT_DIR$/src/db_vac/Parsing.java" />
         <option value="$PROJECT_DIR$/src/db_vac/ConnectionToDB.java" />
-        <option value="db-console:/95523ea0/153d3043-72ce-4358-bdcf-0e433321c191/" />
         <option value="$PROJECT_DIR$/src/db_vac/DB.java" />
       </list>
     </option>
@@ -167,6 +154,11 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="unused-library(library:project:derby)" />
+    </ignored-problems>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -181,12 +173,17 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="DB_Vacancies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -195,7 +192,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DB_Vacancies" />
+              <option name="myItemId" value="DBVacancies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,7 +202,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DB_Vacancies" />
+              <option name="myItemId" value="DBVacancies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -219,7 +216,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,10 +232,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DB" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RunManager" selected="Application.ConnectionToDB">
     <configuration default="false" name="ConnectionToDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -250,6 +248,36 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="db_vac.ConnectionToDB" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DBVacancies" />
+      <envs />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="db_vac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="db_vac.DB" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -258,7 +286,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DB_Vacancies" />
+      <module name="DBVacancies" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -481,12 +509,14 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.ConnectionToDB" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DB" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.ConnectionToDB" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DB" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -500,27 +530,33 @@
       <changelist id="4c111925-efe6-4be9-9d36-89d0a54a81c1" name="Default" comment="" />
       <created>1398368759895</created>
       <updated>1398368759895</updated>
-      <workItem from="1398368765540" duration="4746000" />
+      <workItem from="1398368765540" duration="4842000" />
+      <workItem from="1398418720532" duration="1900000" />
+      <workItem from="1398458531469" duration="510000" />
+      <workItem from="1398459085795" duration="1573000" />
+      <workItem from="1398460795831" duration="59000" />
+      <workItem from="1398460923944" duration="914000" />
+      <workItem from="1398462037007" duration="3107000" />
+      <workItem from="1398496429532" duration="4276000" />
+      <workItem from="1398514867202" duration="6273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4746000" />
+    <option name="totallyTimeSpent" value="23454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="722" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21978852" sideWeight="0.49865228" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20634921" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4691358" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -532,11 +568,14 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26510575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26455027" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16767372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34567901" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21978852" sideWeight="0.5013477" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -563,57 +602,265 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="663">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db_vac/Vacancy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="48" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="850">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#261#270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/95523ea0/153d3043-72ce-4358-bdcf-0e433321c191/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="370">
+        <state line="31" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+        <state line="13" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="48" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.87430686" vertical-offset="139" max-vertical-offset="799">
+        <state line="14" column="90" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="901">
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1398373509835" expanded="true" signature="571:618" placeholder="insert into ..." />
+            <marker date="1398625174595" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398625174595" expanded="true" signature="831:901" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="41" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="69" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="850">
+          <folding>
+            <marker date="1398625174595" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398625174595" expanded="true" signature="831:901" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="48" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="17" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="918">
+          <folding>
+            <marker date="1398625174595" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398625174595" expanded="true" signature="831:901" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="88" selection-start="1572" selection-end="1624" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="918">
+          <folding>
+            <marker date="1398625174595" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398625174595" expanded="true" signature="831:901" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="36" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0" vertical-offset="499" max-vertical-offset="918">
+          <folding>
+            <marker date="1398625174595" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398625174595" expanded="true" signature="831:901" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="16" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="109" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.0" vertical-offset="445" max-vertical-offset="918">
+          <folding>
+            <marker date="1398625174595" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398625174595" expanded="true" signature="831:901" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="39" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="85" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="799">
+          <folding>
+            <marker date="1398625174595" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398625174595" expanded="true" signature="831:901" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="48" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Vacancy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="48" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="799">
+          <folding>
+            <marker date="1398625174595" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398625174595" expanded="true" signature="831:901" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="48" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Vacancy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Vacancy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="232" column="0" selection-start="8603" selection-end="8603" vertical-scroll-proportion="0.3323263" vertical-offset="3307" max-vertical-offset="10047" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBVacancies.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="33" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="45" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="93" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.6927711" vertical-offset="246" max-vertical-offset="680">
+          <folding>
+            <marker date="1398625174595" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398625174595" expanded="true" signature="831:901" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -624,6 +871,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -670,7 +918,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>DB_Vacancies</last-edited>
+          <last-edited>DBVacancies</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -683,7 +931,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>derby</last-edited>
+          <last-edited>derbyclient</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
