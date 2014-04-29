@@ -28,7 +28,7 @@ public class DB {
         statement.close();
     }
 
-    public void diff () throws SQLException {
+    public void difference() throws SQLException {
         Connection connection = DriverManager.getConnection("jdbc:derby:E://ProjectJava//DBVacancies//DB");
         PreparedStatement statement = connection.prepareStatement("select title, link from newvacancy except select title, link from vacancy");
         ResultSet resultSet = statement.executeQuery();
@@ -50,4 +50,25 @@ public class DB {
 
     }
 
+    public void closedVacancy() throws SQLException {
+        Connection connection = DriverManager.getConnection("jdbc:derby:E://ProjectJava//DBVacancies//DB");
+        PreparedStatement statement = connection.prepareStatement("select title, link from vacancy except select title, link from newvacancy");
+        ResultSet resultSet = statement.executeQuery();
+
+        boolean status = false;
+        SimpleDateFormat closingTime = new SimpleDateFormat("yyyy-MM-dd");
+
+       while (resultSet.next()){
+           String link = resultSet.getString("link");
+           String title = resultSet.getString("title");
+           System.out.println(link + " - " + title);
+           PreparedStatement statement1 = connection.prepareStatement("update vacancy set status = ?, closingTime = ? where title = ?");
+           statement1.setBoolean(1, status);
+           statement1.setString(2, closingTime.format(new Date(System.currentTimeMillis())).toString());
+           statement1.setString(3, title);
+           statement1.execute();
+
+        }
+        statement.close();
+    }
 }

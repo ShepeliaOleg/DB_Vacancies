@@ -72,7 +72,7 @@
       <file leaf-file-name="Download.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="663">
+            <state line="13" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -81,33 +81,46 @@
       <file leaf-file-name="Parsing.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="33" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="799">
+            <state line="34" column="33" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionToDB.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ConnectionToDB.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="13" column="9" selection-start="315" selection-end="315" vertical-scroll-proportion="0.5072464" vertical-offset="46" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DB.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DB.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="8" selection-start="892" selection-end="892" vertical-scroll-proportion="0.12650603" vertical-offset="349" max-vertical-offset="986">
+            <state line="47" column="9" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.0" vertical-offset="709" max-vertical-offset="1343">
               <folding>
-                <marker date="1398629697615" expanded="true" signature="390:436" placeholder="insert into ..." />
-                <marker date="1398629697615" expanded="true" signature="831:880" placeholder="insert into ..." />
-                <marker date="1398629697615" expanded="true" signature="1245:1279" placeholder="select title..newvacancy..." />
-                <marker date="1398629697615" expanded="true" signature="1245:1318" placeholder="select title..." />
-                <marker date="1398629697615" expanded="true" signature="1287:1318" placeholder="select title..vacancy..." />
-                <marker date="1398629697615" expanded="true" signature="1691:1764" placeholder="insert into ..." />
+                <marker date="1398784032022" expanded="true" signature="390:436" placeholder="insert into ..." />
+                <marker date="1398784032022" expanded="true" signature="831:880" placeholder="insert into ..." />
+                <marker date="1398784032022" expanded="true" signature="1250:1284" placeholder="select title..newvacancy..." />
+                <marker date="1398784032022" expanded="true" signature="1250:1323" placeholder="select title..." />
+                <marker date="1398784032022" expanded="true" signature="1292:1323" placeholder="select title..vacancy..." />
+                <marker date="1398784032022" expanded="true" signature="1696:1769" placeholder="insert into ..." />
+                <marker date="1398784032022" expanded="true" signature="2370:2443" placeholder="select title..." />
+                <marker date="1398784032022" expanded="true" signature="2370:2401" placeholder="select title..vacancy..." />
+                <marker date="1398784032022" expanded="true" signature="2409:2443" placeholder="select title..newvacancy..." />
+                <marker date="1398784032022" expanded="true" signature="2879:2941" placeholder="update vacan..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vacancy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/db_vac/Vacancy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,8 +145,8 @@
         <option value="db-console:/82e0db93/9d74a5fc-d2e3-46dc-9475-eb11d3c0ef15/" />
         <option value="$PROJECT_DIR$/src/db_vac/Download.java" />
         <option value="$PROJECT_DIR$/src/db_vac/Parsing.java" />
-        <option value="$PROJECT_DIR$/src/db_vac/ConnectionToDB.java" />
         <option value="$PROJECT_DIR$/src/db_vac/DB.java" />
+        <option value="$PROJECT_DIR$/src/db_vac/ConnectionToDB.java" />
       </list>
     </option>
   </component>
@@ -142,6 +155,25 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="722" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JpaQueryApiInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -176,8 +208,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,6 +250,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +268,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -529,6 +561,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4c111925-efe6-4be9-9d36-89d0a54a81c1" name="Default" comment="" />
@@ -543,22 +580,24 @@
       <workItem from="1398462037007" duration="3107000" />
       <workItem from="1398496429532" duration="4276000" />
       <workItem from="1398514867202" duration="8977000" />
+      <workItem from="1398696444641" duration="1286000" />
+      <workItem from="1398779718368" duration="4310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26158000" />
+    <option name="totallyTimeSpent" value="31754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="722" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21978852" sideWeight="0.49865228" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21978852" sideWeight="0.49865228" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4691358" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -573,7 +612,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16767372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34567901" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34567901" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21978852" sideWeight="0.5013477" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -606,6 +645,84 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="33" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="1" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="45" selection-start="2764" selection-end="2764" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1241">
+          <folding>
+            <marker date="1398784032022" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="831:880" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1284" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1323" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="1292:1323" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1696:1769" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2443" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2401" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2409:2443" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2879:2941" placeholder="update vacan..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="33" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="8" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="986">
+          <folding>
+            <marker date="1398784032022" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="831:880" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1284" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1323" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="1292:1323" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1696:1769" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2443" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2401" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2409:2443" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2879:2941" placeholder="update vacan..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <folding />
         </state>
@@ -622,12 +739,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="90" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="901">
           <folding>
-            <marker date="1398629697615" expanded="true" signature="390:436" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="831:880" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1279" placeholder="select title..newvacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1318" placeholder="select title..." />
-            <marker date="1398629697615" expanded="true" signature="1287:1318" placeholder="select title..vacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1691:1764" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="831:880" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1284" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1323" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="1292:1323" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1696:1769" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2443" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2401" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2409:2443" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2879:2941" placeholder="update vacan..." />
           </folding>
         </state>
       </provider>
@@ -650,12 +771,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="69" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="850">
           <folding>
-            <marker date="1398629697615" expanded="true" signature="390:436" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="831:880" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1279" placeholder="select title..newvacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1318" placeholder="select title..." />
-            <marker date="1398629697615" expanded="true" signature="1287:1318" placeholder="select title..vacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1691:1764" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="831:880" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1284" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1323" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="1292:1323" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1696:1769" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2443" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2401" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2409:2443" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2879:2941" placeholder="update vacan..." />
           </folding>
         </state>
       </provider>
@@ -685,12 +810,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="17" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="918">
           <folding>
-            <marker date="1398629697615" expanded="true" signature="390:436" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="831:880" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1279" placeholder="select title..newvacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1318" placeholder="select title..." />
-            <marker date="1398629697615" expanded="true" signature="1287:1318" placeholder="select title..vacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1691:1764" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="831:880" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1284" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1323" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="1292:1323" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1696:1769" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2443" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2401" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2409:2443" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2879:2941" placeholder="update vacan..." />
           </folding>
         </state>
       </provider>
@@ -713,12 +842,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="88" selection-start="1572" selection-end="1624" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="918">
           <folding>
-            <marker date="1398629697615" expanded="true" signature="390:436" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="831:880" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1279" placeholder="select title..newvacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1318" placeholder="select title..." />
-            <marker date="1398629697615" expanded="true" signature="1287:1318" placeholder="select title..vacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1691:1764" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="831:880" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1284" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1323" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="1292:1323" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1696:1769" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2443" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2401" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2409:2443" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2879:2941" placeholder="update vacan..." />
           </folding>
         </state>
       </provider>
@@ -741,12 +874,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="36" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0" vertical-offset="499" max-vertical-offset="918">
           <folding>
-            <marker date="1398629697615" expanded="true" signature="390:436" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="831:880" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1279" placeholder="select title..newvacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1318" placeholder="select title..." />
-            <marker date="1398629697615" expanded="true" signature="1287:1318" placeholder="select title..vacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1691:1764" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="831:880" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1284" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1323" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="1292:1323" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1696:1769" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2443" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2401" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2409:2443" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2879:2941" placeholder="update vacan..." />
           </folding>
         </state>
       </provider>
@@ -769,12 +906,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="109" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.0" vertical-offset="445" max-vertical-offset="918">
           <folding>
-            <marker date="1398629697615" expanded="true" signature="390:436" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="831:880" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1279" placeholder="select title..newvacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1318" placeholder="select title..." />
-            <marker date="1398629697615" expanded="true" signature="1287:1318" placeholder="select title..vacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1691:1764" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="831:880" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1284" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1323" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="1292:1323" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1696:1769" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2443" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2401" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2409:2443" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2879:2941" placeholder="update vacan..." />
           </folding>
         </state>
       </provider>
@@ -797,12 +938,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="85" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="799">
           <folding>
-            <marker date="1398629697615" expanded="true" signature="390:436" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="831:880" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1279" placeholder="select title..newvacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1318" placeholder="select title..." />
-            <marker date="1398629697615" expanded="true" signature="1287:1318" placeholder="select title..vacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1691:1764" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="831:880" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1284" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1323" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="1292:1323" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1696:1769" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2443" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2401" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2409:2443" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2879:2941" placeholder="update vacan..." />
           </folding>
         </state>
       </provider>
@@ -835,12 +980,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="48" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="799">
           <folding>
-            <marker date="1398629697615" expanded="true" signature="390:436" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="831:880" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1279" placeholder="select title..newvacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1318" placeholder="select title..." />
-            <marker date="1398629697615" expanded="true" signature="1287:1318" placeholder="select title..vacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1691:1764" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="831:880" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1284" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1323" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="1292:1323" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1696:1769" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2443" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2401" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2409:2443" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2879:2941" placeholder="update vacan..." />
           </folding>
         </state>
       </provider>
@@ -855,11 +1004,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/db_vac/Vacancy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="232" column="0" selection-start="8603" selection-end="8603" vertical-scroll-proportion="0.3323263" vertical-offset="3307" max-vertical-offset="10047" />
@@ -870,6 +1014,20 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Vacancy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="33" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/db_vac/Download.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="663">
@@ -877,31 +1035,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/db_vac/Parsing.java">
+    <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="33" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="799">
-          <folding />
+        <state line="47" column="9" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.0" vertical-offset="709" max-vertical-offset="1343">
+          <folding>
+            <marker date="1398784032022" expanded="true" signature="390:436" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="831:880" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1284" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1250:1323" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="1292:1323" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="1696:1769" placeholder="insert into ..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2443" placeholder="select title..." />
+            <marker date="1398784032022" expanded="true" signature="2370:2401" placeholder="select title..vacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2409:2443" placeholder="select title..newvacancy..." />
+            <marker date="1398784032022" expanded="true" signature="2879:2941" placeholder="update vacan..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/db_vac/ConnectionToDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+        <state line="13" column="9" selection-start="315" selection-end="315" vertical-scroll-proportion="0.5072464" vertical-offset="46" max-vertical-offset="391">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db_vac/DB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="892" selection-end="892" vertical-scroll-proportion="0.12650603" vertical-offset="349" max-vertical-offset="986">
-          <folding>
-            <marker date="1398629697615" expanded="true" signature="390:436" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="831:880" placeholder="insert into ..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1279" placeholder="select title..newvacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1245:1318" placeholder="select title..." />
-            <marker date="1398629697615" expanded="true" signature="1287:1318" placeholder="select title..vacancy..." />
-            <marker date="1398629697615" expanded="true" signature="1691:1764" placeholder="insert into ..." />
-          </folding>
         </state>
       </provider>
     </entry>
