@@ -71,4 +71,11 @@ public class DB {
         }
         statement.close();
     }
+
+    public void cleanNewvacancy () throws SQLException {
+        Connection connection = DriverManager.getConnection("jdbc:derby:E://ProjectJava//DBVacancies//DB");
+        Statement statement = connection.createStatement();
+        statement.execute("delete from newvacancy");
+        statement.close();
+    }
 }
